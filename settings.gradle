@@ -1,1 +1,2 @@
+include 'spring-reactor-mongo-service'
 rootProject.name = 'spring-reactor-sandbox'
