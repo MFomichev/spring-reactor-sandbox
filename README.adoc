@@ -7,3 +7,10 @@ Simple reactive service that returns persons' info. Database is mongo.
 Endpoints:
 
 `/persons`
+
+= spring-reactor-mongo-service
+Simple service which call spring-reactor-mongo-service using webflux and proxy the result:
+
+Endpoints:
+
+`/persons`
