@@ -1,2 +1,9 @@
 # spring-reactor-sandbox
 Sandbox for experiments with spring / reactor frameworks
+
+= spring-reactor-mongo-service
+Simple reactive service that returns persons' info. Database is mongo.
+
+Endpoints:
+
+`/persons`
