@@ -8,6 +8,14 @@ Endpoints:
 
 `/persons`
 
+= spring-reactor-postgres-service
+Simple reactive service that returns persons' credit cards info. Database is PostgreSQL.
+
+Requirements:
+Launched PostgreSQL. Simple way use docker for launch:
+
+`docker run --name r2dbc-postgresql-sandbox -e POSTGRES_DB=sandbox_db -p 5432:5432 -d postgres`
+
 = spring-reactor-client
 Simple service which call spring-reactor-mongo-service using webflux and proxy the result:
 
