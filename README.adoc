@@ -8,7 +8,7 @@ Endpoints:
 
 `/persons`
 
-= spring-reactor-mongo-service
+= spring-reactor-client
 Simple service which call spring-reactor-mongo-service using webflux and proxy the result:
 
 Endpoints:
